@@ -1,0 +1,71 @@
+---
+
+---
+
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Menú</title>
+		<style>
+			body {
+				background-color: black;
+				color: #ffd700; /* Dorado neon para el texto */
+				font-family: 'Courier New', monospace;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+			}
+
+			h1, h2 {
+				color: #ff4500; /* Rojo neon para los títulos */
+			}
+			.imagen-personalizada {
+				width: 80%;
+				height: auto;
+				margin-bottom: 16px; /* Agrega un espacio entre las imágenes */
+			}
+			button {
+				background-color: #990c0c; /* Verde */
+				color: rgb(234, 213, 23);
+				padding: 10px 20px;
+				font-size: 16px;
+				border: none;
+				border-radius: 5px;
+				cursor: pointer;
+				margin: 8px;
+			}
+
+			button:hover {
+				background-color: #fb0404; /* Verde más oscuro al pasar el ratón */
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Chifa Amazonas</h1>
+		<img src="/img/1.png" alt="menu1" class="imagen-personalizada">
+		<img src="/img/2.png" alt="menu2" class="imagen-personalizada">
+		<img src="/img/3.png" alt="menu3" class="imagen-personalizada">
+		<img src="/img/4.png" alt="menu4" class="imagen-personalizada">
+		<img src="/img/5.png" alt="menu5" class="imagen-personalizada">
+
+		<a href="/public/Menu%20Chifa%20Amazonas.pdf" download="Menu Chifa Amazonas.pdf">
+			<button>Descargar Menú en PDF</button>
+		</a>
+		<a href="https://www.facebook.com/sharer/sharer.php?u=https://menu-chifa-amazonas.netlify.app/" target="_blank" rel="noopener noreferrer">
+			<button>Compartir Menú en Facebook</button>
+		</a>
+		<a href="https://api.whatsapp.com/send/?phone=%2B593939610183&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer">
+			<button>Pedir a Domicilio por WhatsApp</button>
+		</a>
+		</a>
+		<a href="https://maps.app.goo.gl/2B68itEPBvME1ieE9" target="_blank" rel="noopener noreferrer">
+			<button>Ver ubicación del restaurante</button>
+		</a>
+
+		<p>Ten un bonito día!</p>
+	</body>
+</html>
