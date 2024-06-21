@@ -1,0 +1,469 @@
+{
+  "Aperitivos": [
+    {
+      "name": "Porción de bola de masa hervida",
+      "price": "$4.00",
+      "image": "https://images.pexels.com/photos/3728295/pexels-photo-3728295.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "name": "Wantan frito",
+      "price": "$2.50",
+      "image": "https://chifaamistoso.com/wp-content/uploads/2017/04/porcion-wantan-frito-5-768x768.jpg"
+    },
+    {
+      "name": "Wantan relleno (Camarón y Pollo)",
+      "price": "$3.80",
+      "image": "https://www.shutterstock.com/image-photo/fried-wonton-stuffed-chicken-shrimp-260nw-1885929781.jpg"
+    },
+    {
+      "name": "Porción de papas fritas",
+      "price": "$1.50",
+      "image": "https://images.pexels.com/photos/8272620/pexels-photo-8272620.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "name": "Porción de arroz",
+      "price": "$1.20",
+      "image": "https://images.pexels.com/photos/3727196/pexels-photo-3727196.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "name": "Porción de verduras y champiñones",
+      "price": "$3.00",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTURRub-7c5Wv5MUSWmpApyE7NIAShFAyV-xA&s"
+    },
+    {
+      "name": "Porción de tallarín jugoso o seco",
+      "price": "$2.20",
+      "image": "https://images.pexels.com/photos/725990/pexels-photo-725990.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "name": "Porción de rollitos de primavera",
+      "price": "$4.00",
+      "image": "https://images.pexels.com/photos/3569706/pexels-photo-3569706.jpeg?auto=compress&cs=tinysrgb&w=400"
+    }
+  ],
+  "Sopas": [
+    {
+      "name": "Sopa de bola de masa hervida",
+      "price": "$4.50",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwalyfJN4HIhCQDXe_osz22lo3dpNOi-Ob7Q&s"
+    },
+    {
+      "name": "Sopa de mariscos con gengibre",
+      "price": "$5.80",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjR2MW4NmbQ0QuDPxoUA0tieZVjyF83qXFvA&s"
+    },
+    {
+      "name": "Sopa de camarón",
+      "price": "$4.50",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYqXS99GZgVg3evB3xlC7uHWf2CDIVd6aLXQ&s"
+    },
+    {
+      "name": "Sopa de wantan con tallarin",
+      "price": "$4.20",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmhULi5d1UHtv5hGBOgyrkor07B4XGlYTazg&s"
+    },
+    {
+      "name": "Sopa de tallarin",
+      "price": "$3.50",
+      "image": "https://okdiario.com/img/2018/07/22/sopa-de-tallarines-620x349.jpg"
+    },
+    {
+      "name": "Sopa de gallina",
+      "price": "$2.80",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS98QnjjyTUg0pnR2nz1zqAaP01ZISSCOylMg&s"
+    },
+    {
+      "name": "Sopa de chop suey",
+      "price": "$3.00",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9Ktxd9OTMEea98jkW3VeEPNb7eO1L8ww-WA&s"
+    },
+    {
+      "name": "Sopa de menudencias",
+      "price": "$2.90",
+      "image": "https://d2yoo3qu6vrk5d.cloudfront.net/pulzo-lite/images-resized/PP3177668A-h-o.jpg"
+    },
+    {
+      "name": "Sopa vegetariana",
+      "price": "$1.80",
+      "image": "https://www.recetasnestle.com.ec/sites/default/files/srh_recipes/409b2aabfc7c86f27e179375f589b031.jpg"
+    },
+    {
+      "name": "Crema de pac pon",
+      "price": "$2.90",
+      "image": "https://img-global.cpcdn.com/recipes/0e07e762ce1a29d6/1200x630cq70/photo.jpg"
+    },
+    {
+      "name": "Crema de champiñones",
+      "price": "$3.00",
+      "image": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2023/03/21/crema-de-champinones.jpeg"
+    },
+    {
+      "name": "Crema de wuchiwu",
+      "price": "$2.90",
+      "image": "https://todoenuno.app/wp-content/uploads/2022/04/Sopa-de-wu-chi-wu.jpg"
+    }
+  ],
+
+  "Tallarines": [
+    {
+      "name": "Tallarín especial con papas",
+      "price": "$6.30",
+      "image": "https://cdn0.recetasgratis.net/es/posts/3/7/8/papas_con_tallarines_36873_600_square.jpg"
+    },
+    {
+      "name": "Tallarín chopsuey agridulce",
+      "price": "$6.50",
+      "image": "https://www.rebanando.com/uploads/media/img_20130630_213600-2.jpg?1389872235"
+    },
+    {
+      "name": "Tallarín especial (seco)",
+      "price": "$6.50",
+      "image": "https://i.ytimg.com/vi/6SCROOvxkq8/maxresdefault.jpg"
+    },
+    {
+      "name": "Tallarín especial",
+      "price": "$5.80",
+      "image": "https://www.recetasdesbieta.com/wp-content/uploads/2015/03/tallarines-chinos-verdura-01.jpg"
+    },
+    {
+      "name": "Tallarín de pollo",
+      "price": "$5.80",
+      "image": "https://cdn0.recetasgratis.net/es/posts/6/5/1/tallarin_de_pollo_59156_orig.jpg"
+    },
+    {
+      "name": "Tallarín de lomo",
+      "price": "$5.80",
+      "image": "https://chewinghappiness.com/wp-content/uploads/2018/05/Tallarin-Saltado.jpg"
+    },
+    {
+      "name": "Tallarín de chancho",
+      "price": "$5.80",
+      "image": "https://i.ytimg.com/vi/tLSV7Iu9WJs/maxresdefault.jpg"
+    },
+    {
+      "name": "Tallarín de mariscos",
+      "price": "$7.80",
+      "image": "https://i.pinimg.com/originals/6c/ab/e9/6cabe9b865e8e75933cc4329fae3f2fc.jpg"
+    },
+    {
+      "name": "Tallarín de camarón",
+      "price": "$6.80",
+      "image": "https://cdn.colombia.com/gastronomia/2011/08/24/tallarines-con-camarones-3682.jpg"
+    },
+    {
+      "name": "Tallarín vegetariano",
+      "price": "$3.30",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQcgUPh4OC1_GvPRQkOM6GVI0wNGMXIfqQnA&s"
+    },
+    {
+      "name": "Chopsuey con arroz",
+      "price": "$6.00",
+      "image": "https://img-global.cpcdn.com/recipes/aa456af1fdb5136c/680x482cq70/chop-suey-de-pollo-con-arroz-foto-principal.jpg"
+    },
+    {
+      "name": "1/2 Tallarín especial",
+      "price": "$4.50",
+      "image": "https://www.recetasdesbieta.com/wp-content/uploads/2015/03/tallarines-chinos-verdura-01.jpg"
+    }
+  ],
+  "Mixtos": [
+    {
+      "name": "Mixto especial con papas",
+      "price": "$6.30",
+      "image": "https://img-global.cpcdn.com/recipes/952347f12f1a822a/680x482cq70/arroz-mixto-con-papas-a-la-francesa-foto-principal.jpg"
+    },
+    {
+      "name": "Mixto especial",
+      "price": "$5.80",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRioeHRXIyBow8-PALDnmTIstB55GDogaToJw&s"
+    },
+    {
+      "name": "Mixto de pollo",
+      "price": "$6.30",
+      "image": "https://chifaamistoso.com/wp-content/uploads/2017/04/mixto-pollo.jpg"
+    },
+    {
+      "name": "Mixto de camarón",
+      "price": "$7.20",
+      "image": "https://chifaamistoso.com/wp-content/uploads/2017/04/mixto-camaron.jpg"
+    },
+    {
+      "name": "Mixto de lomo",
+      "price": "$6.30",
+      "image": "https://www.comedera.com/wp-content/uploads/2013/05/lomo-saltado-peruano-plato.jpg"
+    },
+    {
+      "name": "1/2 Mixto especial",
+      "price": "$4.50",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRioeHRXIyBow8-PALDnmTIstB55GDogaToJw&sg"
+    },
+    {
+      "name": "1/2 Mixto de pollo",
+      "price": "$4.80",
+      "image": "https://chifaamistoso.com/wp-content/uploads/2017/04/mixto-pollo.jpg"
+    },
+    {
+      "name": "1/2 Mixto de camarón",
+      "price": "$5.50",
+      "image": "https://chifaamistoso.com/wp-content/uploads/2017/04/mixto-camaron.jpg"
+    }
+  ],
+  "Lomos": [
+    {
+      "name": "Lomo saltado con douchi",
+      "price": "$5.80",
+      "image": "https://www.laylita.com/recetas/wp-content/uploads/11-Sirva-el-saltado-con-papas-fritas-y-arroz.jpg"
+    },
+    {
+      "name": "Lomo saltado con verduras",
+      "price": "$6.00",
+      "image": "https://i.ytimg.com/vi/8FsePhGCZ7M/maxresdefault.jpg"
+    },
+    {
+      "name": "Lomo saltado con curry",
+      "price": "$6.30",
+      "image": "https://i.ytimg.com/vi/VLclY57DKCs/sddefault.jpg?v=6362b73b"
+    },
+    {
+      "name": "Lomo saltado con papas",
+      "price": "$6.50",
+      "image": "https://www.record.com.pe/wp-content/uploads/2021/07/Lomo-Saltado-323x323-1-1.jpg"
+    },
+    {
+      "name": "Lomo saltado con champiñones",
+      "price": "$6.30",
+      "image": "https://i.ytimg.com/vi/7RbjKz0V5iw/hqdefault.jpg"
+    },
+    {
+      "name": "Lomo agridulce con piña",
+      "price": "$7.20",
+      "image": "https://i.ytimg.com/vi/bx0nZH4FU9w/maxresdefault.jpg"
+    },
+    {
+      "name": "Churrasco jugoso o frito",
+      "price": "$5.50",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFAc6fYn60wmXEldzhQO4eqeJorhRQ3c1S-g&s"
+    },
+    {
+      "name": "Bistec jugoso o frito",
+      "price": "$5.00",
+      "image": "https://www.aki.com.ec/wp-content/uploads/2021/01/bistec-carne.jpg"
+    },
+    {
+      "name": "Apanado con tomate",
+      "price": "$6.80",
+      "image": "https://cdn0.recetasgratis.net/es/posts/1/9/2/bistec_apanado_77291_orig.jpg"
+    },
+    {
+      "name": "Carne apanada con chaulafan",
+      "price": "$6.20",
+      "image": "https://todoenuno.app/wp-content/uploads/2022/04/Pollo-apanado-chaulafan.png"
+    },
+    {
+      "name": "1/2 Apanado con chaulafan",
+      "price": "$5.20",
+      "image": "https://todoenuno.app/wp-content/uploads/2022/04/Pollo-apanado-chaulafan.png"
+    },
+    {
+      "name": "Apanado mixto con chaulafan",
+      "price": "$7.80",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNrFPRGWK6Q5pz2goUxOWHqL2DDouqxcRb4w&s"
+    }
+  ],
+  "Chancho": [
+    {
+      "name": "Chancho frito con verduras",
+      "price": "$6.50",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9Mn70cJrgXuthudz40C1MnDkyPLUOVfVong&s"
+    },
+    {
+      "name": "Chancho frito con curry",
+      "price": "$6.80",
+      "image": "https://previews.123rf.com/images/yaii1254/yaii12541704/yaii1254170400146/75788580-arroz-de-curry-japon%C3%A9s-cerdo-frito.jpg"
+    },
+    {
+      "name": "Chancho frito agridulce con piña",
+      "price": "$7.30",
+      "image": "https://www.elespectador.com/resizer/c6vrUd9v2x7Gn1Tz8slnEqT5maA=/910x606/filters:quality(70):format(jpeg)/arc-anglerfish-arc2-prod-elespectador.s3.amazonaws.com/public/LYGXCIGU2BHKXOO5ZM2ARMOT2U.jpg"
+    },
+    {
+      "name": "Chancho frito con champiñones",
+      "price": "$8.50",
+      "image": "https://elrincondeafi.es/wp-content/uploads/2012/01/cerdo-champis-teriyaki-1.jpg"
+    }
+  ],
+  "Corvina": [
+    {
+      "name": "Corvina saltada con verduras",
+      "price": "$6.80",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh_pTwuPOf7q_HiDQsqnQ8alInewgtI4zCUg&s"
+    },
+    {
+      "name": "Corvina apanada",
+      "price": "$6.80",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpMcpaR_hKwxbL8W-P2N5hWTbbgkIdju8w0A&s"
+    },
+    {
+      "name": "Corvina frita",
+      "price": "$6.80",
+      "image": "https://i.ytimg.com/vi/bDNAXAb6Jvw/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCAEB3YW6N_yD8jrHN5yHt9DQzItg"
+    },
+    {
+      "name": "Corvina saltada con papas",
+      "price": "$7.00",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpMcpaR_hKwxbL8W-P2N5hWTbbgkIdju8w0A&s"
+    }
+  ],
+  "Plancha": [
+    {
+      "name": "Lomo frito a la plancha",
+      "price": "$6.50",
+      "image": "https://i.ytimg.com/vi/HAA1kIfQ5m4/maxresdefault.jpg"
+    },
+    {
+      "name": "Lomo a la plancha",
+      "price": "$6.50",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCjyrog-88Z-5p-icjXftgWUYmVKYmCIVIOQ&s"
+    },
+    {
+      "name": "Pollo a la plancha",
+      "price": "$6.50",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA2vinXDuYKRCU8XSPj1EnTRvAVS45y0_aBw&s"
+    },
+    {
+      "name": "Chopsuey a la plancha",
+      "price": "$7.30",
+      "image": "https://i.blogs.es/cd8cb3/chopsuey-de-pollo-pakus-futurobloguero/1366_2000.jpg"
+    },
+    {
+      "name": "Camarón a la plancha",
+      "price": "$10.00",
+      "image": "https://cevicheria7mares.ec/wp-content/uploads/2017/05/camarones-a-la-plancha.jpg"
+    },
+    {
+      "name": "Mariscos a la plancha",
+      "price": "$11.00",
+      "image": "https://www.sagastume.eus/wp-content/uploads/2019/10/Marisco-a-la-plancha-sagastume-pescaderia-marisqueria-donostia-san-sebastian-compra-online.jpg"
+    },
+    {
+      "name": "Camarón Meji",
+      "price": "$9.00",
+      "image": "https://cdn0.recetasgratis.net/es/posts/0/6/4/ceviche_de_camarones_15460_600.jpg"
+    },
+    {
+      "name": "Corvina a la plancha",
+      "price": "$8.50",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTCZ1nwi8HeiuqEYxb9ngM1zK2CIRYh9Z7ZQ&s"
+    }
+  ],
+  "Medios": [
+    {
+      "name": "Medio chaulafan especial",
+      "price": "$3.50",
+      "image": "https://tofuu.getjusto.com/orioneat-local/resized2/vcg5v55MLTe2zTmBH-1200-1200.webp"
+    },
+    {
+      "name": "Medio chaulafan con pollo, lomo o chancho",
+      "price": "$3.80",
+      "image": "https://www.laylita.com/recetas/wp-content/uploads/chaulafan-de-pollo.jpg"
+    },
+    {
+      "name": "Medio chaulafan con camarón",
+      "price": "$4.20",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUkJMFX7ehMTPQnyYZSORd7C0iVtlnz6pjuw&s"
+    },
+    {
+      "name": "Medio tallarín especial",
+      "price": "$4.50",
+      "image": "https://todoenuno.app/wp-content/uploads/2022/04/medio-tallarin.jpg"
+    },
+    {
+      "name": "Medio mixto especial",
+      "price": "$4.50",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW5ygsQjBkDa0TaZQyDkBeJgyUZeoN2Wli7w&s"
+    },
+    {
+      "name": "Medio mixto de pollo, lomo o chancho",
+      "price": "$4.80",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRioeHRXIyBow8-PALDnmTIstB55GDogaToJw&s"
+    },
+    {
+      "name": "Medio mixto de camarón",
+      "price": "$5.50",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW5ygsQjBkDa0TaZQyDkBeJgyUZeoN2Wli7w&s"
+    },
+    {
+      "name": "Medio apanado con chaulafan",
+      "price": "$5.20",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZgWwC1iQxR_EJM64Wsgps3iGtRImtG1J5tA&s"
+    },
+    {
+      "name": "Medio apanado con chaulafan y tomate",
+      "price": "$5.50",
+      "image": "https://cdn0.recetasgratis.net/es/posts/1/9/2/bistec_apanado_77291_orig.jpg"
+    },
+    {
+      "name": "Medio churrasco",
+      "price": "$4.60",
+      "image": "https://www.recetas.com.ec/imagen/escalas/2018/3/a1245/churrasco-ecuatoriano-recetas-com-ec-mx.jpg"
+    },
+    {
+      "name": "Medio bistec",
+      "price": "$4.00",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1ftgM7U2mEU2S7PRQqQh7T_VZ9mGK1rm9Iw&s"
+    },
+    {
+      "name": "Medio camarón apanado con chaulafan",
+      "price": "$5.80",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFft7VUmECUo8LWTP3GzyiiNWTcILKBYtkwg&s"
+    },
+    {
+      "name": "Medio tallarin de camarón",
+      "price": "$5.50",
+      "image": "https://cdn.colombia.com/gastronomia/2011/08/24/tallarines-con-camarones-3682.jpg"
+    }
+  ],
+  "Para una persona": [
+    {
+      "name": "1/2 Chaulafan, sopa, cola",
+      "price": "$4.20",
+      "image": "https://images.getduna.com/64fbd16f-9343-4bdd-a4ae-a432eb5694e8/COMBOCHALAFANMIXTO.png?d=400x400&format=webp"
+    },
+    {
+      "name": "Chaulafan, lomo verduras, sopa, cola",
+      "price": "$5.80",
+      "image": "https://tofuu.getjusto.com/orioneat-local/resized2/afbM326zBWWYSgy8Y-1200-1200.webp"
+    },
+    {
+      "name": "Chaulafan, pollo verduras, sopa, cola",
+      "price": "$5.80",
+      "image": "https://tofuu.getjusto.com/orioneat-local/resized2/afbM326zBWWYSgy8Y-1200-1200.webp"
+    },
+    {
+      "name": "Arroz, pollo verduras, sopa, cola",
+      "price": "$4.80",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLtHy4oGeUzYVDvAozzjanut5DzTYDpa3ZLQ&s"
+    },
+    {
+      "name": "Arroz, lomo verduras, sopa, cola",
+      "price": "$4.80",
+      "image": "https://d36fw6y2wq3bat.cloudfront.net/recipes/arroz-salteado-con-lomo-de-cerdo-y-brocoli/900/arroz-salteado-con-lomo-de-cerdo-y-brocoli_version_1652868875.jpg"
+    },
+    {
+      "name": "Chaulafan, lomo apanado, sopa, cola",
+      "price": "$5.80",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXJ63pgUQZ5umF-CIFWlsIN7FgdFXRnPR9Gw&s"
+    },
+    {
+      "name": "Chaulafan, pollo apanado, sopa, cola",
+      "price": "$5.80",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHst6ijb_IilHerFK1ox9Pyi58KbFrhBgeLg&s"
+    },
+    {
+      "name": "1/2 Mixto, sopa, cola",
+      "price": "$6.80",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSslcKVxeGxm_A4LNE4pmf7mPXwrY20y0YOvQ&s"
+    }
+  ]
+}
+

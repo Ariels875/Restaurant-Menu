@@ -1,71 +1,49 @@
 ---
-
+import Layout from '../components/Layout.astro';
+import Navbar from '../components/Nav.astro';
+import Context from '../components/Context.astro'
 ---
 
-<html lang="es">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Menú</title>
-		<style>
-			body {
-				background-color: black;
-				color: #ffd700; /* Dorado neon para el texto */
-				font-family: 'Courier New', monospace;
-				display: flex;
-				flex-direction: column;
-				align-items: center;
-				justify-content: center;
-			}
+<Layout class="background">
+	<main>
+		<div class="background"></div>
+		<Navbar />
+		<Context />
+	</main>
+</Layout>
+<style is:global>
+    body {
+        padding-top: 70px;
+        margin: 0;
+        padding: 0;
+		-webkit-print-color-adjust: exact !important;
+		-webkit-print-color-adjust:exact !important;
+		-moz-print-color-adjust:exact !important;
+    }
+    
+    .background {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw; /* 100% del ancho de la ventana */
+        height: 100vh; /* 100% de la altura de la ventana */
+        z-index: -1;
+        background: linear-gradient(to bottom right, #000000, #0c0f3f, #4a235a); /* Degradado de negro a azul oscuro a violeta oscuro */
+    }
 
-			h1, h2 {
-				color: #ff4500; /* Rojo neon para los títulos */
-			}
-			.imagen-personalizada {
-				width: 80%;
-				height: auto;
-				margin-bottom: 16px; /* Agrega un espacio entre las imágenes */
-			}
-			button {
-				background-color: #990c0c; /* Verde */
-				color: rgb(234, 213, 23);
-				padding: 10px 20px;
-				font-size: 16px;
-				border: none;
-				border-radius: 5px;
-				cursor: pointer;
-				margin: 8px;
-			}
+    main {
+        padding-top: 70px;
+        position: relative; /* Asegura que el contenido principal se coloque correctamente */
+        z-index: 1; /* Coloca el contenido principal sobre el fondo */
+        padding: 20px; /* Añade un espacio para que el contenido no esté pegado al borde */
+    }
+	@media print {
+        html {
+            background: black;
+        }
+		a {
+			display: none;
+		}
+    }
+</style>
 
-			button:hover {
-				background-color: #fb0404; /* Verde más oscuro al pasar el ratón */
-			}
-		</style>
-	</head>
-	<body>
-		<h1>Chifa Amazonas</h1>
-		<img src="/img/1.webp" alt="menu1" class="imagen-personalizada">
-		<img src="/img/2.webp" alt="menu2" class="imagen-personalizada">
-		<img src="/img/3.webp" alt="menu3" class="imagen-personalizada">
-		<img src="/img/4.webp" alt="menu4" class="imagen-personalizada">
-		<img src="/img/5.webp" alt="menu5" class="imagen-personalizada">
-
-		<a href="/Menu%20Chifa%20Amazonas.pdf" download="Menu Chifa Amazonas.pdf">
-			<button>Descargar Menú en PDF</button>
-		</a>
-		<a href="https://www.facebook.com/sharer/sharer.php?u=https://menu-chifa-amazonas.netlify.app/" target="_blank" rel="noopener noreferrer">
-			<button>Compartir Menú en Facebook</button>
-		</a>
-		<a href="https://api.whatsapp.com/send/?phone=%2B593939610183&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer">
-			<button>Pedir a Domicilio por WhatsApp</button>
-		</a>
-		</a>
-		<a href="https://maps.app.goo.gl/2B68itEPBvME1ieE9" target="_blank" rel="noopener noreferrer">
-			<button>Ver ubicación del restaurante</button>
-		</a>
-
-		<p>Ten un bonito día!</p>
-	</body>
-</html>

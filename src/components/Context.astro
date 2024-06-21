@@ -1,0 +1,121 @@
+---
+import menuData from "../../infoMenu.json";
+---
+
+<main>
+  {
+    Object.entries(menuData).map(([category, items]) => {
+      return (
+        <section>
+          <h1>{category}</h1> 
+          <ul>
+            {
+              items.map(
+                ({name, price, image}) => {
+                  return (
+                    <li class="dish-item">
+                      <div class="dish-info">
+                        <h3 class="dish-name">{name}</h3>
+                        <h3 class="dish-price">{price}</h3>
+                      </div>
+                      <img src={image} alt={name} class="dish-image" />
+                    </li>
+                  )
+                }
+              )
+            }
+          </ul>
+        </section>
+      )
+    })
+  }
+</main>
+
+<style>
+  main {
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    color: #ddd;
+    margin: 0 auto;
+  }
+
+  section {
+    padding-top: 70px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    margin: 0 auto;
+  }
+
+  h1 {
+    color: gold;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .dish-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .dish-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+
+  .dish-name, .dish-price {
+    margin: 0.5rem 0;
+  }
+
+  .dish-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  /* Responsive styles */
+  @media(min-width: 600px) {
+    .dish-item {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .dish-info {
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+    }
+
+    .dish-name, .dish-price {
+      margin: 0 1rem;
+    }
+
+    .dish-image {
+      max-width: 150px;
+      margin-left: 1rem;
+    }
+  }
+</style>
